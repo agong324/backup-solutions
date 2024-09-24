@@ -1,5 +1,6 @@
 # Simple Backup Solutions
-# Imported from metalevel-tech/simple-backup-solutions. see https://github.com/metalevel-tech/simple-backup-solutions for the original Repo.
+Imported from metalevel-tech/simple-backup-solutions. see [here](https://github.com/metalevel-tech/simple-backup-solutions) for the original Repo.
+Links here are adjusted to pull from this repo.
 
 A bundle of scripts, that contain few simple solutions for backup, which I'm using within my Ubuntu installations.
 
@@ -18,10 +19,10 @@ A bundle of scripts, that contain few simple solutions for backup, which I'm usi
 - Installation on fly (without using git):
 
   ````shell
-  sudo wget -O /usr/local/bin/incremental_backup https://raw.githubusercontent.com/metalevel-tech/simple-backup-solutions/master/incremental_backup
+  sudo wget -O /usr/local/bin/incremental_backup https://raw.githubusercontent.com/agong324/backup-solutions/master/incremental_backup
   sudo chmod +x /usr/local/bin/incremental_backup
 
-  sudo wget -O /etc/cron.daily/incremental_backup_cron https://raw.githubusercontent.com/metalevel-tech/simple-backup-solutions/master/incremental_backup_cron
+  sudo wget -O /etc/cron.daily/incremental_backup_cron https://raw.githubusercontent.com/agong324/backup-solutions/master/incremental_backup_cron
   sudo chmod +x /etc/cron.daily/incremental_backup_cron
   ````
 
@@ -40,10 +41,10 @@ A bundle of scripts, that contain few simple solutions for backup, which I'm usi
 - Installation on fly (without using git):
 
   ````shell
-  sudo wget -O /usr/local/bin/portable_backup https://raw.githubusercontent.com/metalevel-tech/simple-backup-solutions/master/portable_backup
+  sudo wget -O /usr/local/bin/portable_backup https://raw.githubusercontent.com/agong324/backup-solutions/master/portable_backup
   sudo chmod +x /usr/local/bin/portable_backup
 
-  sudo wget -O /etc/cron.daily/portable_backup_cron https://raw.githubusercontent.com/metalevel-tech/simple-backup-solutions/master/portable_backup_cron
+  sudo wget -O /etc/cron.daily/portable_backup_cron https://raw.githubusercontent.com/agong324/backup-solutions/master/portable_backup_cron
   sudo chmod +x /etc/cron.daily/portable_backup_cron
   ````
 
@@ -57,8 +58,8 @@ A bundle of scripts, that contain few simple solutions for backup, which I'm usi
 
  [1]: https://askubuntu.com/a/1029653/566421
  [2]: https://askubuntu.com/users/504066/perlduck
- [3]: https://github.com/metalevel-tech/simple-backup-solutions/blob/master/incremental_backup
- [4]: https://github.com/metalevel-tech/simple-backup-solutions/blob/master/incremental_backup_cron
+ [3]: https://raw.githubusercontent.com/agong324/backup-solutions/master/incremental_backup
+ [4]: https://raw.githubusercontent.com/agong324/backup-solutions/master/incremental_backup_cron
  [5]: https://askubuntu.com/a/1010102/566421
- [6]: https://github.com/metalevel-tech/simple-backup-solutions/blob/master/portable_backup
- [7]: https://github.com/metalevel-tech/simple-backup-solutions/blob/master/portable_backup_cron
+ [6]: https://raw.githubusercontent.com/agong324/backup-solutions/master/portable_backup
+ [7]: https://raw.githubusercontent.com/agong324/backup-solutions/master/portable_backup_cron
